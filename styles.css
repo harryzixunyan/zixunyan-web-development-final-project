@@ -327,7 +327,6 @@ dialog {
 }
 
 @media (min-width: 768px) {
-  .hero-grid,
   .two-column,
   .form-layout {
     grid-template-columns: repeat(2, 1fr);
