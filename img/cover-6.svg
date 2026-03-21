@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 220" role="img" aria-labelledby="title6 desc6">
+  <title id="title6">Responsive Interfaces with CSS cover</title>
+  <desc id="desc6">Indigo book cover with title and subject label.</desc>
+  <rect width="160" height="220" rx="12" fill="#4338ca"/>
+  <rect x="12" y="12" width="136" height="196" rx="10" fill="#eef2ff" opacity="0.18"/>
+  <text x="16" y="44" font-family="Arial, sans-serif" font-size="12" fill="#c7d2fe">LIB CS</text>
+  <text x="16" y="82" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#ffffff">Responsive</text>
+  <text x="16" y="106" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#ffffff">Interfaces</text>
+  <text x="16" y="130" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#ffffff">with CSS</text>
+  <text x="16" y="164" font-family="Arial, sans-serif" font-size="11" fill="#c7d2fe">Web development</text>
+  <text x="16" y="190" font-family="Arial, sans-serif" font-size="12" fill="#ffffff">Noah Patel</text>
+</svg>

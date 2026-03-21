@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 220" role="img" aria-labelledby="title4 desc4">
+  <title id="title4">Algorithms in Everyday Terms cover</title>
+  <desc id="desc4">Orange book cover with title and subject label.</desc>
+  <rect width="160" height="220" rx="12" fill="#ea580c"/>
+  <rect x="12" y="12" width="136" height="196" rx="10" fill="#fff7ed" opacity="0.18"/>
+  <text x="16" y="44" font-family="Arial, sans-serif" font-size="12" fill="#fed7aa">LIB CS</text>
+  <text x="16" y="82" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#ffffff">Algorithms</text>
+  <text x="16" y="106" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#ffffff">in Everyday</text>
+  <text x="16" y="130" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#ffffff">Terms</text>
+  <text x="16" y="164" font-family="Arial, sans-serif" font-size="11" fill="#fed7aa">Algorithms</text>
+  <text x="16" y="190" font-family="Arial, sans-serif" font-size="12" fill="#ffffff">Julian Brooks</text>
+</svg>

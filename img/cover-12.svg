@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 220" role="img" aria-labelledby="title12 desc12">
+  <title id="title12">Software Engineering Workflow cover</title>
+  <desc id="desc12">Blue gray book cover with title and subject label.</desc>
+  <rect width="160" height="220" rx="12" fill="#1e40af"/>
+  <rect x="12" y="12" width="136" height="196" rx="10" fill="#eff6ff" opacity="0.18"/>
+  <text x="16" y="44" font-family="Arial, sans-serif" font-size="12" fill="#bfdbfe">LIB CS</text>
+  <text x="16" y="82" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#ffffff">Software</text>
+  <text x="16" y="106" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#ffffff">Engineering</text>
+  <text x="16" y="130" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#ffffff">Workflow</text>
+  <text x="16" y="164" font-family="Arial, sans-serif" font-size="11" fill="#bfdbfe">Software engineering</text>
+  <text x="16" y="190" font-family="Arial, sans-serif" font-size="12" fill="#ffffff">Liam Foster</text>
+</svg>

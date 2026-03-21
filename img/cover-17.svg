@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 220" role="img" aria-labelledby="title17 desc17">
+  <title id="title17">Ethics in Artificial Intelligence cover</title>
+  <desc id="desc17">Emerald book cover with title and subject label.</desc>
+  <rect width="160" height="220" rx="12" fill="#059669"/>
+  <rect x="12" y="12" width="136" height="196" rx="10" fill="#ecfdf5" opacity="0.18"/>
+  <text x="16" y="44" font-family="Arial, sans-serif" font-size="12" fill="#a7f3d0">LIB CS</text>
+  <text x="16" y="82" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#ffffff">Ethics in</text>
+  <text x="16" y="106" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#ffffff">Artificial</text>
+  <text x="16" y="130" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#ffffff">Intelligence</text>
+  <text x="16" y="164" font-family="Arial, sans-serif" font-size="11" fill="#a7f3d0">Artificial intelligence</text>
+  <text x="16" y="190" font-family="Arial, sans-serif" font-size="12" fill="#ffffff">Jonah Fields</text>
+</svg>

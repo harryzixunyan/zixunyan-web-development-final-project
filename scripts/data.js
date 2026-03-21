@@ -1,0 +1,222 @@
+window.books = [
+  {
+    id: 'book-1',
+    title: 'Introduction to Programming Logic',
+    author: 'Elena Park',
+    format: 'eBook',
+    audience: 'Students',
+    subject: 'Programming fundamentals',
+    cover: 'img/cover-1.svg',
+    summary: 'A beginner-friendly guide to variables, conditionals, loops, and functions using clear examples and simple exercises.',
+    detail: 'Introduces core programming concepts step by step and helps readers build confidence in problem solving before moving to advanced coding topics.'
+  },
+  {
+    id: 'book-2',
+    title: 'Python for Problem Solving',
+    author: 'Marcus Chen',
+    format: 'Print + Digital',
+    audience: 'Students',
+    subject: 'Programming fundamentals',
+    cover: 'img/cover-2.svg',
+    summary: 'An accessible introduction to Python that focuses on writing programs to solve real-world and academic problems.',
+    detail: 'Covers input and output, data types, loops, functions, and debugging while encouraging readers to think computationally and write organized code.'
+  },
+  {
+    id: 'book-3',
+    title: 'Data Structures Made Clear',
+    author: 'Priya Natarajan',
+    format: 'eBook',
+    audience: 'Students',
+    subject: 'Data structures',
+    cover: 'img/cover-3.svg',
+    summary: 'Explains arrays, linked lists, stacks, queues, trees, and graphs in a visual and easy-to-understand way.',
+    detail: 'Helps readers compare common data structures, understand tradeoffs, and choose the right structure for storing and retrieving data efficiently.'
+  },
+  {
+    id: 'book-4',
+    title: 'Algorithms in Everyday Terms',
+    author: 'Julian Brooks',
+    format: 'Digital',
+    audience: 'General readers',
+    subject: 'Algorithms',
+    cover: 'img/cover-4.svg',
+    summary: 'Breaks down sorting, searching, recursion, and optimization with relatable examples and practical explanations.',
+    detail: 'Focuses on algorithmic thinking, runtime basics, and how step-by-step procedures can be designed for speed, accuracy, and scalability.'
+  },
+  {
+    id: 'book-5',
+    title: 'Web Development Foundations',
+    author: 'Camila Reyes',
+    format: 'Print',
+    audience: 'Students',
+    subject: 'Web development',
+    cover: 'img/cover-5.svg',
+    summary: 'Introduces HTML, CSS, and JavaScript through small projects that demonstrate structure, style, and interactivity.',
+    detail: 'Covers semantic markup, responsive design, forms, navigation, and basic scripting to help readers build accessible front-end websites.'
+  },
+  {
+    id: 'book-6',
+    title: 'Responsive Interfaces with CSS',
+    author: 'Noah Patel',
+    format: 'eBook',
+    audience: 'Educators',
+    subject: 'Web development',
+    cover: 'img/cover-6.svg',
+    summary: 'A practical resource for creating layouts with Flexbox, Grid, spacing systems, and accessible visual hierarchy.',
+    detail: 'Explains modern CSS techniques for multi-device design, including typography scales, reusable components, and mobile-first layout patterns.'
+  },
+  {
+    id: 'book-7',
+    title: 'Database Design Essentials',
+    author: 'Sophia Bennett',
+    format: 'Print + Digital',
+    audience: 'Students',
+    subject: 'Databases',
+    cover: 'img/cover-7.svg',
+    summary: 'Covers relational databases, keys, normalization, and SQL basics for storing and managing structured information.',
+    detail: 'Shows how to design tables, define relationships, and write queries that support accurate retrieval, reporting, and long-term maintainability.'
+  },
+  {
+    id: 'book-8',
+    title: 'SQL Queries for Analysis',
+    author: 'Owen Garcia',
+    format: 'Digital',
+    audience: 'Researchers',
+    subject: 'Databases',
+    cover: 'img/cover-8.svg',
+    summary: 'Focuses on writing clear and efficient SQL queries for filtering, joining, aggregating, and analyzing data.',
+    detail: 'Includes examples of practical query design, performance-aware joins, grouping logic, and ways to keep analytical SQL readable and reusable.'
+  },
+  {
+    id: 'book-9',
+    title: 'Computer Networks Explained',
+    author: 'Alicia Moore',
+    format: 'eBook',
+    audience: 'Students',
+    subject: 'Networking',
+    cover: 'img/cover-9.svg',
+    summary: 'Introduces network models, IP addressing, routing, switching, and common internet protocols through straightforward explanations.',
+    detail: 'Helps readers understand how data moves across networks and why reliability, latency, and protocol design matter in connected systems.'
+  },
+  {
+    id: 'book-10',
+    title: 'Cybersecurity Basics',
+    author: 'Daniel Kim',
+    format: 'Print',
+    audience: 'General readers',
+    subject: 'Cybersecurity',
+    cover: 'img/cover-10.svg',
+    summary: 'Presents foundational security concepts such as authentication, encryption, malware, phishing, and safe system practices.',
+    detail: 'Emphasizes risk awareness, defensive habits, and the core principles used to protect users, devices, applications, and information.'
+  },
+  {
+    id: 'book-11',
+    title: 'Operating Systems in Practice',
+    author: 'Rina Shah',
+    format: 'eBook',
+    audience: 'Students',
+    subject: 'Operating systems',
+    cover: 'img/cover-11.svg',
+    summary: 'Explains processes, memory, file systems, scheduling, and resource management in a practical and approachable style.',
+    detail: 'Shows how operating systems coordinate hardware and software while introducing readers to concurrency, permissions, and system-level thinking.'
+  },
+  {
+    id: 'book-12',
+    title: 'Software Engineering Workflow',
+    author: 'Liam Foster',
+    format: 'Print + Digital',
+    audience: 'Educators',
+    subject: 'Software engineering',
+    cover: 'img/cover-12.svg',
+    summary: 'An introduction to planning, designing, testing, and maintaining software through collaborative development practices.',
+    detail: 'Discusses requirements, version control, code review, documentation, testing strategies, and team workflows used in modern software projects.'
+  },
+  {
+    id: 'book-13',
+    title: 'Version Control with Git',
+    author: 'Mina Torres',
+    format: 'Digital',
+    audience: 'Students',
+    subject: 'Software engineering',
+    cover: 'img/cover-13.svg',
+    summary: 'Teaches the basics of Git, including commits, branches, merges, pull requests, and collaborative repository workflows.',
+    detail: 'Helps readers understand how version control supports experimentation, teamwork, rollback, and organized software delivery.'
+  },
+  {
+    id: 'book-14',
+    title: 'Human-Centered UI Design',
+    author: 'Harper Collins',
+    format: 'eBook',
+    audience: 'Educators',
+    subject: 'User interface design',
+    cover: 'img/cover-14.svg',
+    summary: 'Explores user interface design with a focus on clarity, accessibility, consistency, and low cognitive load.',
+    detail: 'Covers layouts, typography, forms, color contrast, interaction patterns, and design decisions that support usable digital products.'
+  },
+  {
+    id: 'book-15',
+    title: 'Accessible Web Interaction',
+    author: 'Isaac Nguyen',
+    format: 'Print + Digital',
+    audience: 'Researchers',
+    subject: 'User interface design',
+    cover: 'img/cover-15.svg',
+    summary: 'Focuses on building websites and web apps that support keyboard access, screen readers, and inclusive interaction.',
+    detail: 'Explains semantic HTML, ARIA basics, focus management, skip links, labels, and practical accessibility testing for front-end projects.'
+  },
+  {
+    id: 'book-16',
+    title: 'Machine Learning Concepts',
+    author: 'Zara Malik',
+    format: 'eBook',
+    audience: 'Students',
+    subject: 'Artificial intelligence',
+    cover: 'img/cover-16.svg',
+    summary: 'A beginner-oriented overview of supervised learning, classification, regression, and model evaluation.',
+    detail: 'Introduces common machine learning terminology and helps readers understand how models learn from data, where they fail, and how results are assessed.'
+  },
+  {
+    id: 'book-17',
+    title: 'Ethics in Artificial Intelligence',
+    author: 'Jonah Fields',
+    format: 'Digital',
+    audience: 'General readers',
+    subject: 'Artificial intelligence',
+    cover: 'img/cover-17.svg',
+    summary: 'Examines bias, fairness, transparency, privacy, and accountability in the development of intelligent systems.',
+    detail: 'Encourages readers to think critically about the social and technical consequences of AI systems used in education, business, and public life.'
+  },
+  {
+    id: 'book-18',
+    title: 'Cloud Computing Fundamentals',
+    author: 'Nadia Romero',
+    format: 'Print',
+    audience: 'Students',
+    subject: 'Cloud computing',
+    cover: 'img/cover-18.svg',
+    summary: 'Introduces cloud service models, virtual machines, storage, deployment, and scalability in modern computing environments.',
+    detail: 'Explains how cloud systems support flexible infrastructure, shared resources, and application deployment across different usage needs.'
+  },
+  {
+    id: 'book-19',
+    title: 'Mobile App Design Basics',
+    author: 'Ethan Walker',
+    format: 'eBook',
+    audience: 'Students',
+    subject: 'Mobile development',
+    cover: 'img/cover-19.svg',
+    summary: 'A practical starting point for designing and building mobile applications with attention to usability and responsive behavior.',
+    detail: 'Covers screen flow, touch interactions, layout adaptation, navigation patterns, and basic development considerations for mobile apps.'
+  },
+  {
+    id: 'book-20',
+    title: 'Parallel Computing Overview',
+    author: 'Grace Holloway',
+    format: 'Digital',
+    audience: 'Researchers',
+    subject: 'Computer systems',
+    cover: 'img/cover-20.svg',
+    summary: 'Introduces parallel processing concepts, workloads, performance, and coordination across multiple computing resources.',
+    detail: 'Explains concurrency, task division, synchronization, and why parallel approaches are important for large-scale and high-performance computing.'
+  }
+];

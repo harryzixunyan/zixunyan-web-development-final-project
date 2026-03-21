@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LIB | Contact</title>
+  <meta name="description" content="Contact LIB for support, resource help, or general questions.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="site-logo" href="index.html">LIB</a>
+
+      <nav class="site-nav" aria-label="Primary">
+        <ul class="nav-list">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="catalog.html">Catalog</a></li>
+          <li><a href="resources.html">Resources</a></li>
+          <li><a aria-current="page" href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <div class="container">
+      <nav class="breadcrumb" aria-label="Breadcrumb">
+        <ol>
+          <li><a href="index.html">Home</a></li>
+          <li aria-current="page">Contact</li>
+        </ol>
+      </nav>
+    </div>
+
+    <section class="page-header">
+      <div class="container">
+        <h1>Contact</h1>
+        <p class="lead">
+          Send a question, request, or support message through the client-side validated contact form.
+        </p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container form-layout">
+        <article class="card">
+          <h2>Get in touch</h2>
+
+          <form id="contact-form" novalidate>
+            <div class="form-group">
+              <label for="name">Full name</label>
+              <input id="name" name="name" type="text" autocomplete="name">
+              <p id="name-error" class="error-text" aria-live="polite"></p>
+            </div>
+
+            <div class="form-group">
+              <label for="email">Email address</label>
+              <input id="email" name="email" type="email" autocomplete="email">
+              <p id="email-error" class="error-text" aria-live="polite"></p>
+            </div>
+
+            <div class="form-group">
+              <label for="topic">Topic</label>
+              <select id="topic" name="topic">
+                <option value="">Select a topic</option>
+                <option value="general">General question</option>
+                <option value="catalog">Catalog help</option>
+                <option value="resources">Resources request</option>
+                <option value="accessibility">Accessibility feedback</option>
+              </select>
+              <p id="topic-error" class="error-text" aria-live="polite"></p>
+            </div>
+
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="6"></textarea>
+              <p id="message-error" class="error-text" aria-live="polite"></p>
+            </div>
+
+            <button class="button" type="submit">Submit</button>
+            <p id="contact-status" class="contact-status" aria-live="polite"></p>
+          </form>
+        </article>
+
+        <aside class="card">
+          <h2>Help & Guidance</h2>
+          <p>
+            Need help filling out the form? Select a topic that best matches your request and provide as much detail as possible so we can respond effectively.
+          </p>
+          <p>
+            We aim to reply as soon as possible. For general questions, choose “General Inquiry.” For technical issues, include any relevant details to help us assist you.
+          </p>
+        </aside>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>&copy; 2026 LIB. Built for Everyone</p>
+    </div>
+  </footer>
+
+  <script src="scripts/utils.js" defer></script>
+  <script src="scripts/data.js" defer></script>
+  <script src="scripts/main.js" defer></script>
+</body>
+</html>

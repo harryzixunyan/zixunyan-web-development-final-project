@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LIB | Catalog</title>
+  <meta name="description" content="Browse the LIB catalog with searchable and filterable titles.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="site-logo" href="index.html">LIB</a>
+
+      <nav class="site-nav" aria-label="Primary">
+        <ul class="nav-list">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a aria-current="page" href="catalog.html">Catalog</a></li>
+          <li><a href="resources.html">Resources</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <div class="container">
+      <nav class="breadcrumb" aria-label="Breadcrumb">
+        <ol>
+          <li><a href="index.html">Home</a></li>
+          <li aria-current="page">Catalog</li>
+        </ol>
+      </nav>
+    </div>
+
+    <section class="page-header">
+      <div class="container">
+        <h1>Catalog</h1>
+        <p class="lead">
+          Search and filter example titles by keyword, subject, and audience.
+        </p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <form id="catalog-filters" class="filter-panel" action="catalog.html" method="get">
+          <div class="form-group">
+            <label for="search">Search titles or topics</label>
+            <input id="search" name="search" type="search" placeholder="Try Programming, Data, or Web...">
+          </div>
+
+          <div class="form-group">
+            <label for="subject">Subject</label>
+            <select id="subject" name="subject">
+            <option value="">All subjects</option>
+            <option value="Programming fundamentals">Programming fundamentals</option>
+            <option value="Data structures">Data structures</option>
+            <option value="Algorithms">Algorithms</option>
+            <option value="Web development">Web development</option>
+            <option value="Databases">Databases</option>
+            <option value="Networking">Networking</option>
+            <option value="Cybersecurity">Cybersecurity</option>
+            <option value="Operating systems">Operating systems</option>
+            <option value="Software engineering">Software engineering</option>
+            <option value="User interface design">User interface design</option>
+            <option value="Artificial intelligence">Artificial intelligence</option>
+            <option value="Cloud computing">Cloud computing</option>
+            <option value="Mobile development">Mobile development</option>
+            <option value="Computer systems">Computer systems</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="audience">Audience</label>
+            <select id="audience" name="audience">
+              <option value="">All audiences</option>
+              <option value="Students">Students</option>
+              <option value="Educators">Educators</option>
+              <option value="Researchers">Researchers</option>
+              <option value="General readers">General readers</option>
+            </select>
+          </div>
+
+        </form>
+
+        <p id="results-count" class="results-count" aria-live="polite">Showing example titles.</p>
+
+        <div id="empty-state" class="empty-state" hidden>
+          <p>No matching titles were found. Try removing one or more filters.</p>
+        </div>
+
+        <section id="catalog-list" class="catalog-list" aria-label="Book results">
+        </section>
+      </div>
+    </section>
+
+    <dialog id="book-dialog" aria-labelledby="dialog-title">
+      <article class="dialog-card">
+        <div class="dialog-header">
+          <h2 id="dialog-title">Book detail</h2>
+          <button class="button button-secondary close-dialog" type="button">Close</button>
+        </div>
+        <div id="dialog-content"></div>
+      </article>
+    </dialog>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>&copy; 2026 LIB. Built for Everyone</p>
+    </div>
+  </footer>
+
+  <script src="scripts/utils.js" defer></script>
+  <script src="scripts/data.js" defer></script>
+  <script src="scripts/main.js" defer></script>
+</body>
+</html>
