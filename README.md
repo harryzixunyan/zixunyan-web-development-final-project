@@ -10,7 +10,7 @@ The project focuses on simplicity, readability, and inclusive design rather than
 
 ### Run Locally
 
-- Open `index.html` in your browser  
+- Open `https://harryzixunyan.github.io/zixunyan-web-development-final-project/index.html` in your browser  
 - No installation or build tools required (pure HTML, CSS, JS)
 
 ---
