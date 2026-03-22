@@ -8,16 +8,6 @@ The project focuses on simplicity, readability, and inclusive design rather than
 
 ---
 
-## 🚀 Setup Instructions
-
-```bash
-# 1. Clone the repository
-git clone <your-repo-link>
-
-# 2. Navigate into the project folder
-cd lib-digital-library
-```
-
 ### Run Locally
 
 - Open `index.html` in your browser  
